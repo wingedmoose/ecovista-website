@@ -2,39 +2,156 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About EcoVista</title>
-  <link rel="stylesheet" href="styles.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Itim&family=Lora:ital,wght@0,400..700;1,400..700&family=Macondo&family=Outfit:wght@100..900&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About EcoVista</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        /* Custom CSS */
+        body {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 18px;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #045c2f;
+            color: #fff;
+            padding: 24px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #045c2f;
+            padding-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        ul {
+            margin-bottom: 15px;
+            padding-left: 20px;
+        }
+
+        footer {
+            background-color: #045c2f;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        h3 {
+            color: #4caf50;
+        }
+
+        a:hover {
+            color: #004d26;
+        }
+
+        a:visited {
+            color: #4caf50;
+        }
+    </style>
 </head>
 
 <body>
-  <header>
-    <h1>About EcoVista</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section>
-      <h2>Our Mission</h2>
-      <p>At EcoVista, our mission is to be super awesome at what we do. Whatever it is we do.</p>
-    </section>
-    <section>
-      <h2>Our Team (Pets)</h2>
-      <p>Our dedicated team of experts consists of a dog named Arlo, and a cat named Nala. They work very hard to nap during the day.</p>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; 2024 EcoVista. All rights reserved.</p>
-  </footer>
+    <header>
+        <h1>About EcoVista</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="mission">
+            <div class="container">
+                <h2>Our Mission</h2>
+                <p>At EcoVista, our mission is to promote sustainable living and environmental stewardship through innovative solutions and community engagement. We strive to create a greener future for generations to come.</p>
+            </div>
+        </section>
+        <section id="team">
+            <div class="container">
+                <h2>Our Team</h2>
+                <p>Meet the dedicated individuals behind EcoVista:</p>
+                <ul>
+                    <li>David Garcia - Founder & CEO</li>
+                    <li>Scarlett Garcia - Head of Sustainability</li>
+                    <li>Arlo Garcia - Chief Innovation Officer</li>
+                    <li>Nala Garcia - Community Manager</li>
+                </ul>
+            </div>
+        </section>
+        <section id="values">
+            <div class="container">
+                <h2>Our Values</h2>
+                <div class="values-grid">
+                    <div class="value">
+                        <h3>Sustainability</h3>
+                        <p>We are committed to minimizing our environmental footprint and promoting eco-friendly practices.</p>
+                    </div>
+                    <div class="value">
+                        <h3>Innovation</h3>
+                        <p>We embrace creativity and innovation to develop cutting-edge solutions for a sustainable future.</p>
+                    </div>
+                    <div class="value">
+                        <h3>Community</h3>
+                        <p>We believe in the power of collaboration and community engagement to drive meaningful change.</p>
+                    </div>
+                    <div class="value">
+                        <h3>Integrity</h3>
+                        <p>We uphold the highest standards of integrity, honesty, and transparency in all our endeavors.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 EcoVista. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 
 </html>
-
