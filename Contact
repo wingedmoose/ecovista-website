@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - EcoVista</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="contact-form">
+      <h2>Send us a message</h2>
+      <form action="welcome.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+    <section id="contact-info">
+      <h2>Contact Information</h2>
+      <table>
+        <tr>
+          <th>Contact Method</th>
+          <th>Details</th>
+        </tr>
+        <tr>
+          <td>Email</td>
+          <td>info@ecovista.com</td>
+        </tr>
+        <tr>
+          <td>Phone</td>
+          <td>+1 (123) 456-7890</td>
+        </tr>
+      </table>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 EcoVista. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
